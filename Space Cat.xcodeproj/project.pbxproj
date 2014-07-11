@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66471BB6196F62F50088A5A9 /* SpaceCatNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 66471BB5196F62F50088A5A9 /* SpaceCatNode.m */; };
 		66E295E5196EF2A600D2DCE8 /* MachineNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E295E4196EF2A600D2DCE8 /* MachineNode.m */; };
 		66FD0CD2196CCF37001BDC8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66FD0CD1196CCF37001BDC8E /* Foundation.framework */; };
 		66FD0CD4196CCF37001BDC8E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66FD0CD3196CCF37001BDC8E /* CoreGraphics.framework */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		66471BB4196F62F50088A5A9 /* SpaceCatNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceCatNode.h; sourceTree = "<group>"; };
+		66471BB5196F62F50088A5A9 /* SpaceCatNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceCatNode.m; sourceTree = "<group>"; };
 		66E295E3196EF2A600D2DCE8 /* MachineNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MachineNode.h; sourceTree = "<group>"; };
 		66E295E4196EF2A600D2DCE8 /* MachineNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MachineNode.m; sourceTree = "<group>"; };
 		66FD0CCE196CCF37001BDC8E /* Space Cat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Cat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,6 +139,8 @@
 				66FD0D13196CE87F001BDC8E /* GamePlayScene.m */,
 				66E295E3196EF2A600D2DCE8 /* MachineNode.h */,
 				66E295E4196EF2A600D2DCE8 /* MachineNode.m */,
+				66471BB4196F62F50088A5A9 /* SpaceCatNode.h */,
+				66471BB5196F62F50088A5A9 /* SpaceCatNode.m */,
 				66FD0D15196CEE53001BDC8E /* Sprites.atlas */,
 				66FD0CF0196CCF37001BDC8E /* Images.xcassets */,
 				66FD0CDA196CCF37001BDC8E /* Supporting Files */,
@@ -284,6 +289,7 @@
 				66FD0D14196CE87F001BDC8E /* GamePlayScene.m in Sources */,
 				66FD0CE4196CCF37001BDC8E /* AppDelegate.m in Sources */,
 				66FD0CE0196CCF37001BDC8E /* main.m in Sources */,
+				66471BB6196F62F50088A5A9 /* SpaceCatNode.m in Sources */,
 				66E295E5196EF2A600D2DCE8 /* MachineNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

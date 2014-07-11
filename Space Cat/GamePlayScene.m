@@ -9,6 +9,7 @@
 #import "GamePlayScene.h"
 #import "TitleScene.h"
 #import "MachineNode.h"
+#import "SpaceCatNode.h"
 
 @implementation GamePlayScene
 
@@ -22,12 +23,18 @@
         
         MachineNode *machine = [MachineNode machineAtPosition:CGPointMake(CGRectGetMidX(self.frame), 12)];
         [self addChild:machine];
+        
+        SpaceCatNode *spaceCat = [SpaceCatNode spaceCatPosition:CGPointMake(machine.position.x, machine.position.y-2)];
+        [self addChild:spaceCat];
     }
     
     return self;
 }
 
-
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    SpaceCatNode *spaceCat = (SpaceCatNode *)[self childNodeWithName:@"SpaceCat"];
+    spaceCat.performTap;
+}
 
 
 @end
